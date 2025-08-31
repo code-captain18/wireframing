@@ -57,7 +57,7 @@ Detailed, polished wireframes that resemble the final product.
 
 ## What Type of Wireframe Is in the Figma Link?
 
-The wireframe at [Project Airbnb (node-id=1-2)](https://www.figma.com/design/E2BRqdPcKkrnX6hLGPto8Z/Project-Airbnb?node-id=1-2&p=f) appears to be **high-fidelity**—featuring structured layouts, refined content placement, and polished spacing. Such detail is best suited for usability testing and guiding developers during implementation.
+The wireframe at Project Airbnb appears to be **high-fidelity**—featuring structured layouts, refined content placement, and polished spacing. Such detail is best suited for usability testing and guiding developers during implementation.
 
 ---
 
@@ -91,18 +91,22 @@ It supports both low- and high-fidelity wireframing within the same platform.
 
 ## Real-World Scenario: Identifying Usability Issues
 
-During the early design of a **hotel booking platform**, wireframes revealed that the **“Book Now” button** was placed too low on the page, after long property descriptions. User testing with the wireframes showed that users struggled to find the button and some assumed booking wasn’t possible without scrolling extensively.
+During the design of a **warehouse management application**, the initial wireframes did not include a **loading screen after the sign-in process**. In early user testing, participants clicked the **“Sign In”** button and were left staring at a blank dashboard while the system fetched inventory and user data.  
+
+Without a loading state, users assumed the application was unresponsive, and several tried clicking the button multiple times—causing unnecessary duplicate requests to the server.
 
 ### How the Issue Was Resolved  
-The design team moved the “Book Now” button directly under the property title and price in the wireframe. This small adjustment dramatically improved usability during testing—users immediately identified how to complete the booking without confusion.
+Wireframes were updated to include a **loading screen** with a progress indicator immediately after the sign-in action. This gave users clear feedback that the system was processing their request.  
 
 ### Impact on the Final Product  
-By catching this issue at the wireframing stage:  
-- Developers avoided re-coding the booking flow.  
-- The product launched with a streamlined, user-friendly interface.  
-- Conversion rates increased because the booking action was more visible.  
+By addressing this issue early at the wireframing stage:  
+- Developers avoided complex re-engineering of the login flow.  
+- The app delivered a **smoother user experience**, reducing user frustration.  
+- System performance improved because duplicate login requests were eliminated.  
+- Stakeholders gained confidence in the app’s reliability during demos and pilot testing.  
 
 ---
+
 
 ## Conclusion  
 
